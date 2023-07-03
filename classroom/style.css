@@ -1,0 +1,360 @@
+*{
+    border: border-box;
+    margin:0;
+    font-family: Arial;
+    
+}
+.title{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 50px;
+
+    
+}
+.line{
+    text-align: center;
+   
+    
+}
+.line{
+    padding-top: 20px;
+}
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+.search{
+    display: flex;
+    align-content: center;
+    justify-content:center;
+    height:50px;
+    width: 500px;
+    background-color:white;
+    padding-top: 5px;  
+ 
+
+}
+.search-bar{
+    width:450px;
+    height: 35px;
+    border-color: orangered;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.search-button{
+    display: flex;
+    align-items: center;
+    height:40px;
+    width: 50px;
+    border-color: orangered;
+    background-color:orangered;
+    justify-content: center;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    color:white;
+
+}
+.fa-solid fa-magnifying-glass{}
+.heading{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    background-color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#box{
+    display: flex;
+    justify-content: center;
+    align-content:space-evenly;
+    background-color: white;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.container{
+    background-color:white;
+    height: 300px;
+    width: 250px;
+    border-radius: 5%;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    border:2px transparent white;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid yellow;
+}
+.img{
+    height:200px;
+    width: 250px;
+    background-image: url("noodle.jpeg");
+    background-size: cover;
+    padding-top: 0px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+.mealname{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 15px;
+
+}
+.recipe{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 15px;
+
+}
+button{
+ color: white;
+ background-color: orangered;
+ position: relative;
+ left: 70px;
+ border-color: orangered;
+ border-top-right-radius: 40px;
+ border-bottom-right-radius: 40px;
+ border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+
+}
+/*box1*/
+.container1{
+    background-color: white;
+    height: 300px;
+    width: 250px;
+    border:2px solid grey;
+    border-radius: 5%;
+    margin-right: 30px;
+}
+.img1{
+    height:200px;
+    width: 250px;
+    background-image: url("rice.jpg");
+    background-size: cover;
+    padding-top: 0px;
+    border-top-left-radius: 7%;
+    border-top-right-radius: 7%;
+}
+.mealname1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 15px;
+
+}
+.recipe1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 15px;
+
+}
+button1{
+ color: white;
+ background-color: orangered;
+ position: relative;
+ left: 70px;
+ border-color: orangered;
+ border-top-right-radius: 40px;
+ border-bottom-right-radius: 40px;
+ border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+
+}
+/*box2*/
+.container2{
+    background-color: white;
+    height: 300px;
+    width: 250px;
+    border:2px solid grey;
+    border-radius: 5%;
+    margin-right: 30px;
+}
+.img2{
+    height:200px;
+    width: 250px;
+    background-image: url("dosa.jpg");
+    background-size: cover;
+    padding-top: 0px;
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+}
+.mealname2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 15px;
+
+}
+.recipe2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 15px;
+
+}
+button2{
+ color: white;
+ background-color: orangered;
+ position: relative;
+ left: 70px;
+ border-color: orangered;
+ border-top-right-radius: 40px;
+ border-bottom-right-radius: 40px;
+ border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+
+}
+/*box 3*/
+.container3{
+    background-color: white;
+    height: 300px;
+    width: 250px;
+    border:2px solid grey;
+    border-radius: 5%;
+    margin-right: 30px;
+}
+.img3{
+    height:200px;
+    width: 250px;
+    background-image: url("sandwhich.jpeg");
+    background-size: cover;
+    padding-top: 0px;
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+}
+.mealname3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 15px;
+
+}
+.recipe3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 15px;
+
+}
+button3{
+ color: white;
+ background-color: orangered;
+ position: relative;
+ left: 70px;
+ border-color: orangered;
+ border-top-right-radius: 40px;
+ border-bottom-right-radius: 40px;
+ border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+
+}
+
+/* box4 */
+.container4{
+    background-color: white;
+    height: 300px;
+    width: 250px;
+    border:2px solid grey;
+    border-radius: 5%;
+    margin-right: 30px;
+}
+.img4{
+    height:200px;
+    width: 250px;
+    background-image: url("burger.jpeg");
+    background-size:cover;
+    padding-top: 0px;
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+}
+.mealname4{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 15px;
+
+}
+.recipe4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 15px;
+
+}
+button4{
+ color: white;
+ background-color: orangered;
+ position: relative;
+ left: 70px;
+ border-color: orangered;
+ border-top-right-radius: 40px;
+ border-bottom-right-radius: 40px;
+ border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+
+}
+/* box5 */
+.container5{
+    background-color: white;
+    height: 300px;
+    width: 250px;
+    border:2px solid grey;
+    border-radius: 5%;
+    margin-right: 30px;
+}
+.img5{
+    height:200px;
+    width: 250px;
+    background-image: url("download.jpeg");
+    background-size:cover;
+    padding-top: 0px;
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+}
+.mealname5{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 15px;
+
+}
+.recipe5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 15px;
+
+}
+button5{
+ color: white;
+ background-color: orangered;
+ position: relative;
+ left: 70px;
+ border-color: orangered;
+ border-top-right-radius: 40px;
+ border-bottom-right-radius: 40px;
+ border-top-left-radius: 40px;
+border-bottom-left-radius: 40px;
+
+}
+
